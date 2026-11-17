@@ -38,3 +38,6 @@
 
 ### Questions I still have
 -
+- 750 = rwxr-x---: owner reads/writes/runs, group reads/runs, others nothing
+- A permission string is always 9 characters: three trios (owner, group, others)
+
