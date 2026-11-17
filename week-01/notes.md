@@ -43,3 +43,8 @@
 - Mistake: cut -d -f3 gave "a value is required for --delimiter". Cause: forgot the comma after -d. Fix: cut -d, -f3
 - Always check pwd before running commands on a file: relative paths depend on where I am.
 
+- sort: puts lines in order. uniq only merges touching duplicates, so always sort first.
+- uniq -c: counts each group
+- grep 'text' file: shows matching lines. -c counts them, -v inverts (lines that do NOT match)
+- sort | uniq -c | sort -nr: the "count and rank" pattern
+- Check: rows in R3 + rows not in R3 = 5000001 (includes the header)

@@ -1,3 +1,4 @@
 .env
 week-01/data/
 *.log
+*.csv
