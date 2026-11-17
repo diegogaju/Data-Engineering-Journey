@@ -36,8 +36,7 @@
 | git remote add origin | Read-only file system | WSL disk went read-only | wsl --shutdown in PowerShell, reopen Ubuntu |
 | find ~ -name notes.md | no output | file was never saved in nano | Ctrl+O, Enter, then Ctrl+X |
 
-### Questions I still have
--
+
 - 750 = rwxr-x---: owner reads/writes/runs, group reads/runs, others nothing
 - A permission string is always 9 characters: three trios (owner, group, others)
 
