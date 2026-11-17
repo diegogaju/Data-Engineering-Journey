@@ -5,7 +5,7 @@
 - ls: lists what is inside the folder
 - whoami: shows which user I am (gaju)
 - Set up WSL2, Ubuntu and Docker. hello-world ran successfully.
-## Day 1: Filesystem and permissions
+### Filesystem and permissions
 
 ### Commands learned
 | Command | What it does | My example |
