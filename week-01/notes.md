@@ -36,7 +36,10 @@
 | git remote add origin | Read-only file system | WSL disk went read-only | wsl --shutdown in PowerShell, reopen Ubuntu |
 | find ~ -name notes.md | no output | file was never saved in nano | Ctrl+O, Enter, then Ctrl+X |
 
-
+### IMPORTANT NOTES
 - 750 = rwxr-x---: owner reads/writes/runs, group reads/runs, others nothing
 - A permission string is always 9 characters: three trios (owner, group, others)
+- cut -d, -f3 file: -d, = delimiter is a comma (no space), -f3 = column 3
+- Mistake: cut -d -f3 gave "a value is required for --delimiter". Cause: forgot the comma after -d. Fix: cut -d, -f3
+- Always check pwd before running commands on a file: relative paths depend on where I am.
 
